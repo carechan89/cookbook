@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+
+.welcome-logo, .boba-photo, .soft-batch-cookies-photo, .steak-photo, .chickpea-salad-photo {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #778899;
+  background-size: cover;
+
+  min-height: 100%;
+  opacity: .75;
+
+  background-attachment: fixed;
+}
+
+.welcome-logo {
+  background-image: url("https://images.unsplash.com/photo-1495546968767-f0573cca821e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
+}
+
+.boba-photo {
+    background-image: url("https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
+}
+
+.soft-batch-cookies-photo {
+    background-image: url("https://images.unsplash.com/photo-1506184341422-6cc152ae474b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+}
+
+.chickpea-salad-photo {
+    background-image: url("https://images.unsplash.com/photo-1568747244129-86a6c6541414?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+}
+
+.steak-photo {
+    background-image: url("https://images.unsplash.com/photo-1558030018-d461fe79233e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center
+}
+
+.textSection {
+  background-color:#778899;
+  text-align: center;
+  padding:50px 80px;
+}
+
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.border {
+  background-color: #778899;
+  color: White;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  opacity: .75;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .welcome-logo {
+    background-attachment: scroll;
+  }
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2F4F4F;
+    background-color: transparent;
+    text-decoration: underline;
+}
